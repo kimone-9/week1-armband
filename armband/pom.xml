@@ -6,9 +6,18 @@
   <name>armband</name>
   <dependencies>
   	<dependency>
-  		<groupId>ap</groupId>
+  		<groupId>AP</groupId>
   		<artifactId>armband-lib</artifactId>
   		<version>0.0.1</version>
   	</dependency>
   </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>AP</groupId>
+  			<artifactId>armband-lib</artifactId>
+  			<version>0.0.1</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
