@@ -10,14 +10,13 @@
   		<artifactId>armband-lib</artifactId>
   		<version>0.0.1</version>
   	</dependency>
+  	<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12-beta-3</version>
+    <scope>test</scope>
+</dependency>
   </dependencies>
-  <dependencyManagement>
-  	<dependencies>
-  		<dependency>
-  			<groupId>AP</groupId>
-  			<artifactId>armband-lib</artifactId>
-  			<version>0.0.1</version>
-  		</dependency>
-  	</dependencies>
-  </dependencyManagement>
+ 
+  
 </project>

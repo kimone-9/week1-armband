@@ -1,6 +1,6 @@
 package ap.lib;
 
-public class armband {
+public class Armband {
 
 	private int id;
 	private String colour;
